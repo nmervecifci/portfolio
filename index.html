@@ -43,9 +43,11 @@
   <body class="bg-gray-50">
     <!-- Navigation -->
     <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
-      <div class="container mx-auto px-6 py-4">
+      <div class="container mx-auto px-4 sm:px-6 py-4">
         <div class="flex justify-between items-center">
-          <h1 class="text-2xl font-bold text-secondary">Merve Nur Çifci</h1>
+          <h1 class="text-xl sm:text-2xl font-bold text-secondary">
+            Merve Nur Çifci
+          </h1>
           <div class="hidden md:flex space-x-6">
             <a
               href="#about"
@@ -69,33 +71,33 @@
             >
           </div>
           <button id="mobile-menu" class="md:hidden">
-            <i class="fas fa-bars text-2xl"></i>
+            <i class="fas fa-bars text-xl sm:text-2xl"></i>
           </button>
         </div>
       </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="gradient-bg text-white py-20 mt-16">
-      <div class="container mx-auto px-6 text-center">
+    <section class="gradient-bg text-white py-16 sm:py-20 mt-16">
+      <div class="container mx-auto px-4 sm:px-6 text-center">
         <div class="max-w-4xl mx-auto">
-          <h1 class="text-5xl md:text-7xl font-bold mb-6">
+          <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold mb-6">
             <span class="text-yellow-300">Frontend Developer</span>
           </h1>
-          <p class="text-xl md:text-2xl mb-8 text-gray-200">
+          <p class="text-lg sm:text-xl md:text-2xl mb-8 text-gray-200">
             Modern web teknolojileri ile kullanıcı odaklı arayüzler
             geliştiriyorum
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#projects"
-              class="bg-white text-secondary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
+              class="bg-white text-secondary px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
             >
               Projelerimi Gör
             </a>
             <a
               href="#contact"
-              class="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-secondary transition-colors"
+              class="border-2 border-white text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-secondary transition-colors"
             >
               İletişime Geç
             </a>
@@ -105,52 +107,58 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-20">
-      <div class="container mx-auto px-6">
+    <section id="about" class="py-16 sm:py-20">
+      <div class="container mx-auto px-4 sm:px-6">
         <div class="max-w-4xl mx-auto">
-          <h2 class="text-4xl font-bold text-center mb-12 text-secondary">
+          <h2
+            class="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12 text-secondary"
+          >
             Hakkımda
           </h2>
-          <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
             <div>
-              <p class="text-lg text-gray-600 mb-6">
+              <p class="text-base sm:text-lg text-gray-600 mb-4 sm:mb-6">
                 Selçuk Üniversitesi Bilgisayar Mühendisliği mezunu olarak,
                 full-stack web development alanında Frontend ve UI/UX tasarımına
                 odaklanıyorum.
               </p>
-              <p class="text-lg text-gray-600 mb-6">
+              <p class="text-base sm:text-lg text-gray-600 mb-4 sm:mb-6">
                 React.js, JavaScript TailwindCSS kullanarak modern, performans
                 odaklı web uygulamaları geliştiriyorum. Node.js ile backend
                 çözümleri üretme deneyimim sayesinde full-stack projelerde etkin
                 çalışabiliyorum.
               </p>
-              <div class="flex flex-wrap gap-4">
+              <div class="flex flex-wrap gap-3 sm:gap-4">
                 <span
-                  class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold"
+                  class="bg-primary/10 text-primary px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-semibold"
                   >React.js</span
                 >
                 <span
-                  class="bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-semibold"
+                  class="bg-accent/10 text-accent px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-semibold"
                   >Node.js</span
                 >
                 <span
-                  class="bg-purple-100 text-purple-600 px-4 py-2 rounded-full text-sm font-semibold"
+                  class="bg-purple-100 text-purple-600 px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-semibold"
                   >UI/UX Design</span
                 >
               </div>
             </div>
-            <div class="bg-white rounded-lg shadow-lg p-8">
-              <h3 class="text-2xl font-bold mb-6 text-secondary">Deneyim</h3>
-              <div class="space-y-6">
+            <div class="bg-white rounded-lg shadow-lg p-6 sm:p-8">
+              <h3
+                class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-secondary"
+              >
+                Deneyim
+              </h3>
+              <div class="space-y-4 sm:space-y-6">
                 <div>
-                  <h4 class="font-semibold text-lg">
+                  <h4 class="font-semibold text-base sm:text-lg">
                     Frontend Developer Stajyer
                   </h4>
                   <p class="text-accent font-medium">Meram Belediyesi</p>
                   <p class="text-gray-600 text-sm">Şubat 2024 - Temmuz 2024</p>
                 </div>
                 <div>
-                  <h4 class="font-semibold text-lg">
+                  <h4 class="font-semibold text-base sm:text-lg">
                     Flutter Developer Stajyer
                   </h4>
                   <p class="text-accent font-medium">Pixel Yazılım</p>
@@ -166,107 +174,133 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-20 bg-white">
-      <div class="container mx-auto px-6">
-        <h2 class="text-4xl font-bold text-center mb-12 text-secondary">
+    <section id="skills" class="py-16 sm:py-20 bg-white">
+      <div class="container mx-auto px-4 sm:px-6">
+        <h2
+          class="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12 text-secondary"
+        >
           Teknolojiler
         </h2>
         <div class="max-w-6xl mx-auto">
-          <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+          <div
+            class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-6"
+          >
             <div
-              class="skill-item bg-gray-50 p-6 rounded-lg text-center hover:shadow-lg"
+              class="skill-item bg-gray-50 p-4 sm:p-6 rounded-lg text-center hover:shadow-lg"
             >
-              <i class="fab fa-react text-4xl text-blue-500 mb-3"></i>
-              <p class="font-semibold">React.js</p>
+              <i
+                class="fab fa-react text-3xl sm:text-4xl text-blue-500 mb-2 sm:mb-3"
+              ></i>
+              <p class="font-semibold text-sm sm:text-base">React.js</p>
             </div>
             <div
-              class="skill-item bg-gray-50 p-6 rounded-lg text-center hover:shadow-lg"
+              class="skill-item bg-gray-50 p-4 sm:p-6 rounded-lg text-center hover:shadow-lg"
             >
-              <i class="fab fa-js-square text-4xl text-yellow-500 mb-3"></i>
-              <p class="font-semibold">JavaScript</p>
+              <i
+                class="fab fa-js-square text-3xl sm:text-4xl text-yellow-500 mb-2 sm:mb-3"
+              ></i>
+              <p class="font-semibold text-sm sm:text-base">JavaScript</p>
             </div>
             <div
-              class="skill-item bg-gray-50 p-6 rounded-lg text-center hover:shadow-lg"
+              class="skill-item bg-gray-50 p-4 sm:p-6 rounded-lg text-center hover:shadow-lg"
             >
-              <i class="fab fa-node-js text-4xl text-green-500 mb-3"></i>
-              <p class="font-semibold">Node.js</p>
+              <i
+                class="fab fa-node-js text-3xl sm:text-4xl text-green-500 mb-2 sm:mb-3"
+              ></i>
+              <p class="font-semibold text-sm sm:text-base">Node.js</p>
             </div>
             <div
-              class="skill-item bg-gray-50 p-6 rounded-lg text-center hover:shadow-lg"
+              class="skill-item bg-gray-50 p-4 sm:p-6 rounded-lg text-center hover:shadow-lg"
             >
-              <i class="fab fa-css3-alt text-4xl text-blue-600 mb-3"></i>
-              <p class="font-semibold">TailwindCSS</p>
+              <i
+                class="fab fa-css3-alt text-3xl sm:text-4xl text-blue-600 mb-2 sm:mb-3"
+              ></i>
+              <p class="font-semibold text-sm sm:text-base">TailwindCSS</p>
             </div>
             <div
-              class="skill-item bg-gray-50 p-6 rounded-lg text-center hover:shadow-lg"
+              class="skill-item bg-gray-50 p-4 sm:p-6 rounded-lg text-center hover:shadow-lg"
             >
-              <i class="fab fa-figma text-4xl text-purple-500 mb-3"></i>
-              <p class="font-semibold">Figma</p>
+              <i
+                class="fab fa-figma text-3xl sm:text-4xl text-purple-500 mb-2 sm:mb-3"
+              ></i>
+              <p class="font-semibold text-sm sm:text-base">Figma</p>
             </div>
             <div
-              class="skill-item bg-gray-50 p-6 rounded-lg text-center hover:shadow-lg"
+              class="skill-item bg-gray-50 p-4 sm:p-6 rounded-lg text-center hover:shadow-lg"
             >
-              <i class="fab fa-git-alt text-4xl text-red-500 mb-3"></i>
-              <p class="font-semibold">Git</p>
+              <i
+                class="fab fa-git-alt text-3xl sm:text-4xl text-red-500 mb-2 sm:mb-3"
+              ></i>
+              <p class="font-semibold text-sm sm:text-base">Git</p>
             </div>
-              <div
-              class="skill-item bg-gray-50 p-6 rounded-lg text-center hover:shadow-lg"
+            <div
+              class="skill-item bg-gray-50 p-4 sm:p-6 rounded-lg text-center hover:shadow-lg"
             >
-             <i class="fab fa-react text-4xl text-blue-500 mb-3"></i>
-              <p class="font-semibold">React Native</p>
+              <i
+                class="fab fa-react text-3xl sm:text-4xl text-blue-500 mb-2 sm:mb-3"
+              ></i>
+              <p class="font-semibold text-sm sm:text-base">React Native</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="py-20">
-      <div class="container mx-auto px-6">
-        <h2 class="text-4xl font-bold text-center mb-12 text-secondary">
+    <!-- Projects Section - MOBILE OPTIMIZED -->
+    <section id="projects" class="py-16 sm:py-20 overflow-x-hidden">
+      <div class="container mx-auto px-4 sm:px-6">
+        <h2
+          class="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12 text-secondary"
+        >
           Projelerim
         </h2>
-        <div class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-1 gap-8">
+
+        <!-- Mobile-First: Single Column Layout -->
+        <div class="max-w-4xl mx-auto space-y-6 sm:space-y-8">
           <!-- GreenCart Project -->
           <div
             class="project-card bg-white rounded-lg shadow-lg overflow-hidden"
           >
             <div
-              class="h-48 bg-gradient-to-br from-green-400 to-blue-500 relative"
+              class="h-32 sm:h-48 bg-gradient-to-br from-green-400 to-blue-500 relative"
             >
               <div class="absolute inset-0 flex items-center justify-center">
-                <i class="fas fa-shopping-cart text-white text-6xl"></i>
+                <i
+                  class="fas fa-shopping-cart text-white text-3xl sm:text-6xl"
+                ></i>
               </div>
             </div>
-            <div class="p-6">
-              <h3 class="text-xl font-bold mb-3">GreenCart E-ticaret Admin</h3>
-              <p class="text-gray-600 mb-4">
+            <div class="p-4 sm:p-6">
+              <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">
+                GreenCart E-ticaret Admin
+              </h3>
+              <p class="text-gray-600 text-sm sm:text-base mb-3 sm:mb-4">
                 React + Redux Toolkit + Supabase ile geliştirilmiş e-ticaret
                 yönetim paneli. Real-time özellikler ve modern UI.
               </p>
-              <div class="flex flex-wrap gap-2 mb-4">
+              <div class="flex flex-wrap gap-2 mb-3 sm:mb-4">
                 <span
-                  class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs"
+                  class="bg-blue-100 text-blue-600 px-2 sm:px-3 py-1 rounded-full text-xs"
                   >React</span
                 >
                 <span
-                  class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-xs"
+                  class="bg-purple-100 text-purple-600 px-2 sm:px-3 py-1 rounded-full text-xs"
                   >Redux</span
                 >
                 <span
-                  class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-xs"
+                  class="bg-green-100 text-green-600 px-2 sm:px-3 py-1 rounded-full text-xs"
                   >Supabase</span
                 >
               </div>
-              <div class="flex gap-3">
+              <div class="flex flex-col sm:flex-row gap-3">
                 <a
                   href="https://ecommerce-dashboard-react-beta.vercel.app"
-                  class="text-primary hover:text-primary/80 font-semibold"
+                  class="text-center sm:text-left bg-blue-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
                   >Live Demo</a
                 >
                 <a
                   href="https://github.com/nmervecifci/ecommerce-dashboard-react"
-                  class="text-gray-600 hover:text-gray-800"
+                  class="text-center sm:text-left border border-gray-300 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors"
                   >GitHub</a
                 >
               </div>
@@ -278,155 +312,267 @@
             class="project-card bg-white rounded-lg shadow-lg overflow-hidden"
           >
             <div
-              class="h-48 bg-gradient-to-br from-purple-400 to-pink-500 relative"
+              class="h-32 sm:h-48 bg-gradient-to-br from-purple-400 to-pink-500 relative"
             >
               <div class="absolute inset-0 flex items-center justify-center">
-                <i class="fas fa-store text-white text-6xl"></i>
+                <i class="fas fa-store text-white text-3xl sm:text-6xl"></i>
               </div>
             </div>
-            <div class="p-6">
-              <h3 class="text-xl font-bold mb-3">E-Ticaret Full Stack</h3>
-              <p class="text-gray-600 mb-4">
+            <div class="p-4 sm:p-6">
+              <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">
+                E-Ticaret Full Stack
+              </h3>
+              <p class="text-gray-600 text-sm sm:text-base mb-3 sm:mb-4">
                 Node.js/Express.js backend ve React.js frontend ile kapsamlı
                 e-ticaret platformu. MVC mimarisi ve RESTful API.
               </p>
-              <div class="flex flex-wrap gap-2 mb-4">
+              <div class="flex flex-wrap gap-2 mb-3 sm:mb-4">
                 <span
-                  class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-xs"
+                  class="bg-green-100 text-green-600 px-2 sm:px-3 py-1 rounded-full text-xs"
                   >Node.js</span
                 >
                 <span
-                  class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs"
+                  class="bg-blue-100 text-blue-600 px-2 sm:px-3 py-1 rounded-full text-xs"
                   >React</span
                 >
                 <span
-                  class="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs"
+                  class="bg-gray-100 text-gray-600 px-2 sm:px-3 py-1 rounded-full text-xs"
                   >Express</span
                 >
               </div>
-              <div class="flex gap-3">
+              <div class="flex flex-col sm:flex-row gap-3">
                 <a
                   href="#"
-                  class="text-primary hover:text-primary/80 font-semibold"
+                  class="text-center sm:text-left bg-blue-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
                   >Live Demo</a
                 >
                 <a
                   href="https://github.com/nmervecifci/ecommerce-full-stack"
-                  class="text-gray-600 hover:text-gray-800"
+                  class="text-center sm:text-left border border-gray-300 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors"
                   >GitHub</a
                 >
               </div>
             </div>
           </div>
 
-
-          
-            <!-- Taskflow Project -->
+          <!-- Taskflow Project -->
           <div
             class="project-card bg-white rounded-lg shadow-lg overflow-hidden"
           >
             <div
-              class="h-48 bg-gradient-to-br from-green-400 to-blue-500 relative"
+              class="h-32 sm:h-48 bg-gradient-to-br from-blue-400 to-indigo-500 relative"
             >
               <div class="absolute inset-0 flex items-center justify-center">
-               <i class="fas fa-bullseye text-white text-6xl"></i>
+                <i class="fas fa-bullseye text-white text-3xl sm:text-6xl"></i>
               </div>
             </div>
-            <div class="p-6">
-              <h3 class="text-xl font-bold mb-3">Taskflow</h3>
-              <p class="text-gray-600 mb-4">
-                Next.js + Redux Toolkit + +Node.js + MongoDB ile geliştirilmiş  proje ve görev yönetimi
-                 paneli.JWT tabanlı yetkilendirme
+            <div class="p-4 sm:p-6">
+              <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">
+                Taskflow
+              </h3>
+              <p class="text-gray-600 text-sm sm:text-base mb-3">
+                Next.js + Redux Toolkit + Node.js + MongoDB ile geliştirilmiş
+                proje ve görev yönetimi paneli. JWT tabanlı yetkilendirme
               </p>
-              <p class="text-gray-600 mb-4"> Test Hesapları<br>
-🔑 **Admin:** admin@taskflow.com / A123456 <br>
-👤 **Manager:** manager@taskflow.com / M123456 <br>
-💻 **Developer:** dev@taskflow.com/ D123456</p>
-              <div class="flex flex-wrap gap-2 mb-4">
+
+              <!-- Test Accounts - Mobile Optimized -->
+              <div class="bg-gray-50 p-3 rounded-lg mb-3 sm:mb-4">
+                <p class="text-xs sm:text-sm font-medium text-gray-700 mb-2">
+                  Test Hesapları:
+                </p>
+                <div class="space-y-1 text-xs">
+                  <p>
+                    <span class="font-medium">Admin:</span> admin@taskflow.com /
+                    A123456
+                  </p>
+                  <p>
+                    <span class="font-medium">Manager:</span>
+                    manager@taskflow.com / M123456
+                  </p>
+                  <p>
+                    <span class="font-medium">Developer:</span> dev@taskflow.com
+                    / D123456
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex flex-wrap gap-2 mb-3 sm:mb-4">
                 <span
-                  class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs"
+                  class="bg-blue-100 text-blue-600 px-2 sm:px-3 py-1 rounded-full text-xs"
                   >Next.js</span
                 >
                 <span
-                  class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-xs"
+                  class="bg-purple-100 text-purple-600 px-2 sm:px-3 py-1 rounded-full text-xs"
                   >Redux</span
                 >
                 <span
-                  class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-xs"
+                  class="bg-green-100 text-green-600 px-2 sm:px-3 py-1 rounded-full text-xs"
                   >MongoDB</span
                 >
               </div>
-              <div class="flex gap-3">
+              <div class="flex flex-col sm:flex-row gap-3">
                 <a
-                  href=" https://taskflow-1-sh8r.onrender.com/"
-                  class="text-primary hover:text-primary/80 font-semibold"
+                  href="https://taskflow-1-sh8r.onrender.com/"
+                  class="text-center sm:text-left bg-blue-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
                   >Live Demo</a
                 >
                 <a
                   href="https://github.com/nmervecifci/taskflow"
-                  class="text-gray-600 hover:text-gray-800"
+                  class="text-center sm:text-left border border-gray-300 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors"
                   >GitHub</a
                 >
               </div>
             </div>
           </div>
 
-    <section id="contact" class="py-20 bg-secondary text-white">
-      <div class="container mx-auto px-6">
+          <!-- Modern E-commerce Platform Project - SON PROJE -->
+          <div
+            class="project-card bg-white rounded-lg shadow-lg overflow-hidden"
+          >
+            <div
+              class="h-32 sm:h-48 bg-gradient-to-br from-orange-400 to-red-500 relative"
+            >
+              <div class="absolute inset-0 flex items-center justify-center">
+                <i
+                  class="fas fa-shopping-bag text-white text-3xl sm:text-6xl"
+                ></i>
+              </div>
+            </div>
+            <div class="p-4 sm:p-6">
+              <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">
+                Modern E-ticaret Platformu
+              </h3>
+              <p class="text-gray-600 text-sm sm:text-base mb-3">
+                Next.js 15 + TypeScript + Redux ile geliştirilmiş modern
+                e-ticaret platformu. Responsive tasarım, çoklu dil desteği ve
+                real-time sepet yönetimi.
+              </p>
+
+              <!-- Features -->
+              <div class="bg-blue-50 p-3 rounded-lg mb-3 sm:mb-4">
+                <div class="space-y-1 text-xs sm:text-sm text-gray-700">
+                  <p>
+                    ⚡ <strong>Özellikler:</strong> Responsive tasarım, çoklu
+                    dil desteği
+                  </p>
+                  <p>
+                    🎨 <strong>UI/UX:</strong> Mobile-first yaklaşım, modern
+                    animasyonlar
+                  </p>
+                  <p>
+                    🌐 <strong>Performance:</strong> Image optimization, SEO
+                    optimizasyonu
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex flex-wrap gap-2 mb-3 sm:mb-4">
+                <span
+                  class="bg-blue-100 text-blue-600 px-2 sm:px-3 py-1 rounded-full text-xs"
+                  >Next.js 15</span
+                >
+                <span
+                  class="bg-blue-100 text-blue-600 px-2 sm:px-3 py-1 rounded-full text-xs"
+                  >TypeScript</span
+                >
+                <span
+                  class="bg-purple-100 text-purple-600 px-2 sm:px-3 py-1 rounded-full text-xs"
+                  >Redux</span
+                >
+                <span
+                  class="bg-green-100 text-green-600 px-2 sm:px-3 py-1 rounded-full text-xs"
+                  >TailwindCSS</span
+                >
+              </div>
+              <div class="flex flex-col sm:flex-row gap-3">
+                <a
+                  href="https://shopzone-ecommerce.onrender.com/tr"
+                  class="text-center sm:text-left bg-blue-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/nmervecifci/ecommerce-platform"
+                  class="text-center sm:text-left border border-gray-300 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 sm:py-20 bg-secondary text-white">
+      <div class="container mx-auto px-4 sm:px-6">
         <div class="max-w-4xl mx-auto text-center">
-          <h2 class="text-4xl font-bold mb-8">İletişime Geçin</h2>
-          <p class="text-xl mb-12 text-gray-300">
+          <h2 class="text-3xl sm:text-4xl font-bold mb-6 sm:mb-8">
+            İletişime Geçin
+          </h2>
+          <p class="text-lg sm:text-xl mb-8 sm:mb-12 text-gray-300">
             Projeleriniz için birlikte çalışalım. Modern web çözümleri
             geliştirmek için buradayım.
           </p>
 
-          <div class="grid md:grid-cols-3 gap-8 mb-12">
+          <div
+            class="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 mb-8 sm:mb-12"
+          >
             <div class="text-center">
-              <i class="fas fa-envelope text-3xl text-accent mb-4"></i>
-              <h3 class="text-lg font-semibold mb-2">Email</h3>
-              <p class="text-gray-300">mervenurcfc42@gmail.com</p>
+              <i
+                class="fas fa-envelope text-2xl sm:text-3xl text-accent mb-3 sm:mb-4"
+              ></i>
+              <h3 class="text-base sm:text-lg font-semibold mb-2">Email</h3>
+              <p class="text-gray-300 text-sm sm:text-base">
+                mervenurcfc42@gmail.com
+              </p>
             </div>
             <div class="text-center">
-              <i class="fas fa-phone text-3xl text-accent mb-4"></i>
-              <h3 class="text-lg font-semibold mb-2">Telefon</h3>
-              <p class="text-gray-300">5520057393</p>
+              <i
+                class="fas fa-phone text-2xl sm:text-3xl text-accent mb-3 sm:mb-4"
+              ></i>
+              <h3 class="text-base sm:text-lg font-semibold mb-2">Telefon</h3>
+              <p class="text-gray-300 text-sm sm:text-base">5520057393</p>
             </div>
             <div class="text-center">
-              <i class="fas fa-map-marker-alt text-3xl text-accent mb-4"></i>
-              <h3 class="text-lg font-semibold mb-2">Konum</h3>
-              <p class="text-gray-300">Konya, Turkey</p>
+              <i
+                class="fas fa-map-marker-alt text-2xl sm:text-3xl text-accent mb-3 sm:mb-4"
+              ></i>
+              <h3 class="text-base sm:text-lg font-semibold mb-2">Konum</h3>
+              <p class="text-gray-300 text-sm sm:text-base">Konya, Turkey</p>
             </div>
           </div>
 
-          <div class="flex justify-center space-x-6">
+          <div class="flex justify-center space-x-4 sm:space-x-6">
             <a
               href="https://www.linkedin.com/in/mervenurcifci"
               target="_blank"
-              class="bg-blue-600 hover:bg-blue-700 p-4 rounded-full transition-colors"
+              class="bg-blue-600 hover:bg-blue-700 p-3 sm:p-4 rounded-full transition-colors"
             >
-              <i class="fab fa-linkedin text-2xl"></i>
+              <i class="fab fa-linkedin text-xl sm:text-2xl"></i>
             </a>
             <a
               href="https://github.com/nmervecifci"
               target="_blank"
-              class="bg-gray-800 hover:bg-gray-900 p-4 rounded-full transition-colors"
+              class="bg-gray-800 hover:bg-gray-900 p-3 sm:p-4 rounded-full transition-colors"
             >
-              <i class="fab fa-github text-2xl"></i>
+              <i class="fab fa-github text-xl sm:text-2xl"></i>
             </a>
             <a
               href="mailto:mervenurcfc42@gmail.com"
-              class="bg-accent hover:bg-green-600 p-4 rounded-full transition-colors"
+              class="bg-accent hover:bg-green-600 p-3 sm:p-4 rounded-full transition-colors"
             >
-              <i class="fas fa-envelope text-2xl"></i>
+              <i class="fas fa-envelope text-xl sm:text-2xl"></i>
             </a>
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="bg-gray-900 text-gray-400 py-8">
-      <div class="container mx-auto px-6 text-center">
-        <p>&copy; 2024 Merve Nur Çifci. Tüm hakları saklıdır.</p>
+    <footer class="bg-gray-900 text-gray-400 py-6 sm:py-8">
+      <div class="container mx-auto px-4 sm:px-6 text-center">
+        <p class="text-sm sm:text-base">
+          &copy; 2024 Merve Nur Çifci. Tüm hakları saklıdır.
+        </p>
       </div>
     </footer>
 
